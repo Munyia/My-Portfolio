@@ -1,0 +1,35 @@
+
+.social-link1:hover {
+    background-color: #e1306c;
+    animation: bounce 0.4s linear;
+  }
+  
+  .social-link2:hover {
+    background-color: #333;
+    animation: bounce 0.4s linear;
+  }
+  
+  .social-link3:hover {
+    background-color: #0077b5;
+    animation: bounce 0.4s linear;
+  }
+  
+  .social-link4:hover {
+    background-color: #1da1f2;
+    animation: bounce 0.4s linear;
+  }
+  
+  .social-link5:hover {
+    background-color: #25d366;
+    animation: bounce 0.4s linear;
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  
