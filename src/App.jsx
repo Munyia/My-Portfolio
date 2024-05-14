@@ -23,7 +23,7 @@ function App() {
        <Route path="/experience" element={<Experience/>} />
        <Route path="/navbar" element={<Navbar/>} />
        <Route path="/projects" element={<Projects/>} />
-       <Route path="/skill" element={<Skills/>} />
+       <Route path="/skills" element={<Skills/>} />
      </Routes>
      </BrowserRouter>
     </>

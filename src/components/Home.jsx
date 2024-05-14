@@ -1,16 +1,19 @@
 import React from "react";
 import Navbar from "./Navbar";
 import Contact from "./Contact";
+import {bg3} from "../assets/res"
 
 const Home = () => {
   return (
-    <div className="flex  h-screen overflow-hidden scroll-m-0">
-      <div className="">
-        <Navbar />
-        <div className="flex">
-          <Contact />
-          <div className="flex bg-sec w-[85%] px-10 flex-col gap-3  text-2xl  justify-center items-center text-sec1">
-            <p>
+    <div className="relative flex h-screen overflow-hidden scroll-m-0">
+    <img className="absolute inset-0 w-full h-full object-cover z-0" src={bg3} alt="" />
+    <div className="relative z-10 w-full bg-[rgba(0,0,0,0.5)]">
+      <Navbar />
+      <div className="flex h-full">
+        <Contact />
+        <div className="flex w-full justify-center items-center relative">
+          <div className="w-[85%] mb-14 text-2xl flex flex-col gap-3 justify-center items-center text-white ">
+             <p>
               Hi, I'm Amaranjo Ndidi Vivian, a skilled full-stack JavaScript
               developer. With a background in Geography and certifications in
               HR, International Relations, and Project Management, I bring
@@ -29,6 +32,7 @@ const Home = () => {
               opportunities.
             </p>
           </div>
+        </div>
         </div>
       </div>
     </div>
