@@ -4,9 +4,9 @@ import "./all.css";
 
 const Contact = () => {
   return (
-    <div className=" bg-sec1 relative w-[15%] ">
+    <div className=" bg-sec relative w-[15%] ">
       <div className="flex justify-center text-center">
-      <p className="text-pry py-5 justify-center align-middle font-serif font-bold hover:text-black flex items-center text-3xl">
+      <p className="text-black py-5 justify-center align-middle font-serif font-bold hover:text-white flex items-center text-3xl">
         Vivian Amaranjo
       </p>
       </div>
