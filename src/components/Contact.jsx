@@ -11,7 +11,76 @@ const Contact = () => {
       </p>
       </div>
       <div className="flex flex-col p-5 gap-5 justify-center  items-center  aspect-square w-88 ">
+   
         <Link
+          to="https://github.com/Munyia"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="relative flex items-center justify-center w-12 h-12 text-white text-2xl rounded-full bg-black social-link2"
+        >
+          <svg
+            viewBox="0 0 496 512"
+            height="1em"
+            fill="#fff"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C426.2 457.8 496 362.8 496 252 496 113.3 385.5 8 244.8 8z"></path>
+          </svg>
+        </Link>
+        <Link
+          to="https://www.linkedin.com/in/vivian-ndidi-amaranjo-9a98a32a3" 
+          target="_blank"
+          rel="noopener noreferrer"
+          className="relative flex items-center justify-center w-12 h-12 text-white text-2xl rounded-full bg-blue-700 social-link3"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            width="24"
+            height="24"
+            fill="currentColor"
+          >
+            <path d="M19 0h-14c-2.75 0-5 2.25-5 5v14c0 2.75 2.25 5 5 5h14c2.75 0 5-2.25 5-5v-14c0-2.75-2.25-5-5-5zm-11.5 20h-3v-10h3v10zm-1.5-11.2c-.95 0-1.7-.75-1.7-1.7 0-.95.75-1.7 1.7-1.7s1.7.75 1.7 1.7c0 .95-.75 1.7-1.7 1.7zm14 11.2h-3v-5.5c0-1.3-.9-2.5-2.5-2.5s-2.5 1.2-2.5 2.5v5.5h-3v-10h3v1.7c.8-1.3 2.1-1.7 3.2-1.7 2.6 0 3.8 2.1 3.8 4.3v5.7z"></path>
+          </svg>
+        </Link>
+        <Link
+          to="tel:+2348174365032"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="relative flex items-center justify-center w-12 h-12 text-white text-2xl rounded-full bg-green-500 social-link5"
+        >
+          <svg
+            viewBox="0 0 16 16"
+            className="bi bi-whatsapp"
+            fill="currentColor"
+            height="16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"
+              fill="white"
+            ></path>
+          </svg>
+        </Link>
+        <Link
+      to= "mailto:ndidiranjo@gmail.com"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="relative flex items-center justify-center w-12 h-12 text-white text-2xl rounded-full bg-red-500 hover:bg-red-600 social-link5"
+    >
+      <svg
+        viewBox="0 0 24 24"
+        height="24"
+        width="24"
+        fill="currentColor"
+        xmlns="http://www.w3.org/2000/svg"
+        className="text-white transform transition-transform duration-300 hover:scale-110"
+      >
+        <path d="M12 12.713L0 6.228V5.5C0 3.57 1.57 2 3.5 2h17C22.43 2 24 3.57 24 5.5v.728l-12 6.485zM0 8.406v10.907C0 21.075 1.925 23 4.281 23h15.438C22.075 23 24 21.075 24 19.313V8.406l-12 6.464-12-6.464z"/>
+      </svg>
+    </Link>
+    <Link
           to="https://www.instagram.com"
           target="_blank"
           rel="noopener noreferrer"
@@ -32,94 +101,21 @@ const Contact = () => {
           </svg>
         </Link>
         <Link
-          to="https://github.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="relative flex items-center justify-center w-12 h-12 text-white text-2xl rounded-full bg-black social-link2"
-        >
-          <svg
-            viewBox="0 0 496 512"
-            height="1em"
-            fill="#fff"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C426.2 457.8 496 362.8 496 252 496 113.3 385.5 8 244.8 8z"></path>
-          </svg>
-        </Link>
-        <Link
-          to="https://www.linkedin.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="relative flex items-center justify-center w-12 h-12 text-white text-2xl rounded-full bg-blue-700 social-link3"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            width="24"
-            height="24"
-            fill="currentColor"
-          >
-            <path d="M19 0h-14c-2.75 0-5 2.25-5 5v14c0 2.75 2.25 5 5 5h14c2.75 0 5-2.25 5-5v-14c0-2.75-2.25-5-5-5zm-11.5 20h-3v-10h3v10zm-1.5-11.2c-.95 0-1.7-.75-1.7-1.7 0-.95.75-1.7 1.7-1.7s1.7.75 1.7 1.7c0 .95-.75 1.7-1.7 1.7zm14 11.2h-3v-5.5c0-1.3-.9-2.5-2.5-2.5s-2.5 1.2-2.5 2.5v5.5h-3v-10h3v1.7c.8-1.3 2.1-1.7 3.2-1.7 2.6 0 3.8 2.1 3.8 4.3v5.7z"></path>
-          </svg>
-        </Link>
-        <Link
-          to="https://www.twitter.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="relative flex items-center justify-center w-12 h-12 text-white text-2xl rounded-full bg-blue-400 social-link4"
-        >
-          <svg
-            viewBox="0 0 16 16"
-            className="bi bi-twitter"
-            fill="currentColor"
-            height="16"
-            width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"
-              fill="white"
-            ></path>
-          </svg>
-        </Link>
-        <Link
-          to="https://www.whatsapp.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="relative flex items-center justify-center w-12 h-12 text-white text-2xl rounded-full bg-green-500 social-link5"
-        >
-          <svg
-            viewBox="0 0 16 16"
-            className="bi bi-whatsapp"
-            fill="currentColor"
-            height="16"
-            width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"
-              fill="white"
-            ></path>
-          </svg>
-        </Link>
-        <Link
-          to="https://www.email.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="relative flex items-center justify-center w-12 h-12 text-white text-2xl rounded-full bg-red-500 social-link5"
-        >
-          <svg
-            viewBox="0 0 16 16"
-            className="bi bi-email"
-            fill="currentColor"
-            height="16"
-            width="16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path fill="white" d="M0 0h16v16H0z" />
-            <path d="M1 4.5l7 3 7-3V5l-7 3-7-3v-.5zM1 7l7 3 7-3v1.5l-7 3-7-3V7zm0 2.5l4 1.5 3.5-1.5L13 10V12l-4 1.5-3.5-1.5-4-1.5V9l4 1.5 3.5-1.5L13 8V6L9.5 7.5 6 6 1 4.5v5l3.5-1.5L9 9v2.5l-4 1.5-3.5-1.5L1 11V9.5z" />
-          </svg>
-        </Link>
+  to="https://twitter.com/elonmusk"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="relative flex items-center justify-center w-12 h-12 text-white text-2xl rounded-full bg-black social-link4 hover:bg-black"
+>
+  <svg
+    viewBox="0 0 24 24"
+    height="24"
+    width="24"
+    fill="currentColor"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path d="M13.414 12l5.293-5.293a1 1 0 1 0-1.414-1.414L12 10.586 6.707 5.293a1 1 0 1 0-1.414 1.414L10.586 12l-5.293 5.293a1 1 0 1 0 1.414 1.414L12 13.414l5.293 5.293a1 1 0 1 0 1.414-1.414L13.414 12z"/>
+  </svg>
+</Link>
       </div>
     </div>
   );
