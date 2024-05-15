@@ -1,23 +1,38 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from "react";
 
-const Navbar = () => {
+const Navbar = ({ scrollToSection, refs, activeSection }) => {
   return (
-    <div className='h-[13vh] relative bg-sec1 text-white px-5 flex py-5 justify-between font-playfair '>
-      <div className='flex w-20%'>
-        <p className='py-5 text-black justify-center align-middle font-serif font-bold hover:text-sec flex items-center text-3xl'>Web Developer</p>
-      </div>
-        <div className='flex font-playfair w-[60%] text-black justify-between items-center'>
-            <Link to={'/'} className='flex w-[15%] hover:text-sec hover:text-lg  hover:underline'>Home</Link>
-            <Link to={'/about'} className='flex w-[15%] hover:text-sec hover:text-lg  hover:underline'>About</Link>
-            <Link to={'/education'} className='flex w-[15%] hover:text-sec hover:text-lg  hover:underline'>Education</Link>
-            <Link to={'/experience'} className='flex w-[15%] hover:text-sec hover:text-lg  hover:underline'>Experience</Link>
-            <Link to={'/projects'} className='flex w-[15%] hover:text-sec hover:text-lg  hover:underline'>Projects</Link>
-            <Link to={'/skills'} className='flex w-[15%] hover:text-sec hover:text-lg  hover:underline'>Skills</Link>
+    <nav className="fixed top-0 w-full h-[12%] bg-sec1 text-white p-4 z-20">
+      <div className='flex font-playfair  text-white justify-between items-center mx-auto'>
+        <div className="w-[15%] gap-5">
+        <p className="text-2xl ">Web Developer</p>
         </div>
+        <div className="flex w-[80%] justify-between items-center text-center ">
+        <button onClick={() => scrollToSection(refs.homeRef)} className={`flex w-[10%] hover:text-sec hover:text-lg hover:underline ${activeSection === "Home" ? "underline" : ""}`}>
+          Home
+        </button>
+        <button onClick={() => scrollToSection(refs.aboutRef)} className={`flex w-[10%] hover:text-sec hover:text-lg hover:underline ${activeSection === "About" ? "underline" : ""}`}>
+          About
+        </button>
+        <button onClick={() => scrollToSection(refs.educationRef)} className={`flex w-[10%] hover:text-sec hover:text-lg hover:underline ${activeSection === "Education" ? "underline" : ""}`}>
+          Education
+        </button>
+        <button onClick={() => scrollToSection(refs.experienceRef)} className={`flex w-[10%] hover:text-sec hover:text-lg hover:underline ${activeSection === "Experience" ? "underline" : ""}`}>
+          Experience
+        </button>
+        <button onClick={() => scrollToSection(refs.projectsRef)} className={`flex w-[10%] hover:text-sec hover:text-lg hover:underline ${activeSection === "Projects" ? "underline" : ""}`}>
+          Projects
+        </button>
+        <button onClick={() => scrollToSection(refs.toolsAndPlatformsRef)} className={`flex w-[15%] hover:text-sec hover:text-lg hover:underline ${activeSection === "Tools And Platforms" ? "underline" : ""}`}>
+          Tools and Platforms
+        </button>
+        <button onClick={() => scrollToSection(refs.skillsRef)} className={`flex w-[10%] hover:text-sec hover:text-lg hover:underline ${activeSection === "Skills" ? "underline" : ""}`}>
+          Skills
+        </button>
+        </div>
+      </div>
+    </nav>
+  );
+};
 
-    </div>
-  )
-}
-
-export default Navbar
+export default Navbar;

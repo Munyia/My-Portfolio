@@ -3,7 +3,8 @@ import Navbar from "./Navbar";
 import Contact from "./Contact";
 import { bg3 } from "../assets/res";
 
-const Home = () => {
+
+const LandingPage = () => {
   const homeRef = useRef(null);
   const aboutRef = useRef(null);
   const educationRef = useRef(null);
@@ -168,4 +169,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default LandingPage

@@ -7,6 +7,7 @@ import Education from "./components/Education"
 import Experience from "./components/Experience"
 import Projects from "./components/Projects"
 import Skills from "./components/Skills"
+import LandingPage from "./components/LandingPage"
 
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
     <>
      <BrowserRouter>
      <Routes>
-       <Route path="/" element={<Home/>} />
+       <Route path="/" element={<LandingPage/>} />
        <Route path="/about" element={<About/>} />
        <Route path="/contact" element={<Contact/>} />
        <Route path="/education" element={<Education/>} />
