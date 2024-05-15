@@ -14,6 +14,18 @@ const Home = () => {
 
   const [activeSection, setActiveSection] = useState("");
 
+  const refs = {
+    homeRef,
+    aboutRef,
+    educationRef,
+    experienceRef,
+    projectsRef,
+    toolsAndPlatformsRef,
+    skillsRef,
+  };
+
+  
+
   const handleScroll = () => {
     const homeTop = homeRef.current.getBoundingClientRect().top;
     const aboutTop = aboutRef.current.getBoundingClientRect().top;
@@ -49,8 +61,43 @@ const Home = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  useEffect(() => {
+    const options = {
+      root: null,
+      rootMargin: "0px",
+      threshold: 0.5,
+    };
+
+    const callback = (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          setActiveSection(entry.target.getAttribute("data-section"));
+        }
+      });
+    };
+
+    const observer = new IntersectionObserver(callback, options);
+
+    Object.values(refs).forEach((ref) => {
+      if (ref.current) {
+        observer.observe(ref.current);
+      }
+    });
+
+    return () => {
+      Object.values(refs).forEach((ref) => {
+        if (ref.current) {
+          observer.unobserve(ref.current);
+        }
+      });
+    };
+  }, [refs]);
+
   const scrollToSection = (ref) => {
-    ref.current.scrollIntoView({ behavior: "smooth" });
+    window.scrollTo({
+      top: ref.current.offsetTop,
+      behavior: "smooth",
+    });
   };
 
   return (
@@ -63,7 +110,7 @@ const Home = () => {
           activeSection={activeSection}
         />
         <div className="flex flex-col ml-[15%]  overflow-y-auto h-full pt-16">
-          <section ref={homeRef} className="flex w-full justify-center items-center relative h-screen">
+          <section ref={homeRef}  data-section="Home"  className="flex w-full bg-black justify-center items-center relative h-screen">
             <div className="w-[85%] mb-14 text-2xl flex flex-col gap-3 justify-center items-center text-white">
               <p>
                 Hi, I'm Amaranjo Ndidi Vivian, a skilled full-stack JavaScript
@@ -86,7 +133,7 @@ const Home = () => {
             </div>
           </section>
 
-          <section ref={aboutRef} className="flex w-full justify-center items-center relative h-screen">
+          <section ref={aboutRef}  data-section="About"  className="flex w-full bg-pry justify-center items-center relative h-screen">
             <div className="w-[85%] mb-14 flex flex-col gap-3 justify-center items-center text-white">
               <p>
                 Hello, I'm Amaranjo Ndidi Vivian, a passionate Full Stack
@@ -136,27 +183,27 @@ const Home = () => {
             </div>
           </section>
 
-          <section ref={educationRef} className="flex w-full justify-center items-center relative h-screen">
+          <section ref={educationRef} data-section="Education"  className="flex w-full bg-pry justify-center items-center relative h-screen">
             <div className="w-[85%] mb-14 text-2xl flex flex-col gap-3 justify-center items-center text-white">
               <p>Education section content goes here.</p>
             </div>
           </section>
-          <section ref={experienceRef} className="flex w-full justify-center items-center relative h-screen">
+          <section ref={experienceRef} data-section="Experience"  className="flex w-full bg-pry justify-center items-center relative h-screen">
             <div className="w-[85%] mb-14 text-2xl flex flex-col gap-3 justify-center items-center text-white">
               <p>Experience section content goes here.</p>
             </div>
           </section>
-          <section ref={projectsRef} className="flex w-full justify-center items-center relative h-screen">
+          <section ref={projectsRef} data-section="Projects"  className="flex w-full bg-pry justify-center items-center relative h-screen">
             <div className="w-[85%] mb-14 text-2xl flex flex-col gap-3 justify-center items-center text-white">
               <p>Projects section content goes here.</p>
             </div>
           </section>
-          <section ref={toolsAndPlatformsRef} className="flex w-full justify-center items-center relative h-screen">
+          <section ref={toolsAndPlatformsRef} data-section="Tools And Platforms"  className="flex w-full bg-pry justify-center items-center relative h-screen">
             <div className="w-[85%] mb-14 text-2xl flex flex-col gap-3 justify-center items-center text-white">
               <p>Tools and Platforms section content goes here.</p>
             </div>
           </section>
-          <section ref={skillsRef} className="flex w-full justify-center items-center relative h-screen">
+          <section ref={skillsRef} data-section="Skills"  className="flex w-full bg-pry justify-center items-center relative h-screen">
             <div className="w-[85%] mb-14 text-2xl flex flex-col gap-3 justify-center items-center text-white">
               <p>Skills section content goes here.</p>
             </div>
