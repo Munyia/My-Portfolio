@@ -110,8 +110,16 @@ const About = () => {
           activeSection={activeSection}
         />
         <div className="flex flex-col ml-[15%]  overflow-y-auto h-full pt-16">
-        <div className="w-[85%] pb-[4%] mb-2 text-2xl font-extralight  px-10 flex flex-col gap-3 justify-center items-center text-white">
-              <p>
+        <section
+            ref={aboutRef}
+            data-section="Home"
+            className="flex w-full my-[10%] justify-center items-center relative h-screen"
+          >
+            <div className="w-[85%] pb-[4%] mb-2 text-2xl font-extralight   h-screen flex flex-col gap-3 justify-center items-center text-white">
+            <p className="item-center mb-5 font-bold flex justify-center">
+               About Me
+              </p>
+            <p>
                 Hello, I'm Amaranjo Ndidi Vivian, a passionate Full Stack
                 JavaScript Web Developer based in Abuja, Nigeria. With a
                 background in Geography and Environment from Imo State
@@ -157,6 +165,8 @@ const About = () => {
                 outdoor adventures.
               </p>
             </div>
+          </section>
+        
         </div>
         <Contact />
       </div>
