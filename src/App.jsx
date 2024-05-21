@@ -8,6 +8,7 @@ import Experience from "./components/Experience"
 import Projects from "./components/Projects"
 import Skills from "./components/Skills"
 import LandingPage from "./components/LandingPage"
+import Tools from "./components/Tools"
 
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
     <>
      <BrowserRouter>
      <Routes>
-       <Route path="/" element={<LandingPage/>} />
+       <Route path="/" element={<Home/>} />
        <Route path="/about" element={<About/>} />
        <Route path="/contact" element={<Contact/>} />
        <Route path="/education" element={<Education/>} />
@@ -25,6 +26,7 @@ function App() {
        <Route path="/navbar" element={<Navbar/>} />
        <Route path="/projects" element={<Projects/>} />
        <Route path="/skills" element={<Skills/>} />
+       <Route path="/tools" element={<Tools/>} />
      </Routes>
      </BrowserRouter>
     </>
