@@ -4,6 +4,15 @@ import Contact from "./Contact";
 import { bg3 } from "../assets/res";
 
 const Tools = () => {
+  const [visible, setVisible] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setVisible(true);
+    }, 100); // Delay to ensure smooth transition after component mounts
+
+    return () => clearTimeout(timer);
+  }, []);
 
 
   return (
@@ -16,6 +25,7 @@ const Tools = () => {
             className="flex w-full  justify-center items-center relative"
           >
             <div className="w-[85%] mb-14 flex flex-col text-2xl font-extralight  gap-5 justify-center items-center text-white">
+            <div className={`transform transition-transform duration-1000 ease-in-out ${visible ? 'translate-x-0 opacity-100' : 'translate-x-full opacity-0'}`}>
               <p className="item-center font-bold flex justify-center">
               Tools and Platforms
               </p>
@@ -44,6 +54,7 @@ const Tools = () => {
                 <p  className="font-bold">Sublime Text</p>
                 <p>Sublime Text provides a lightweight and versatile text editing experience, ideal for quick edits and smaller projects.</p>
               </div>
+            </div>
             </div>
           </section>
         

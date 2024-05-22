@@ -4,6 +4,15 @@ import Contact from "./Contact";
 import { bg3 } from "../assets/res";
 
 const Projects = () => {
+  const [visible, setVisible] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setVisible(true);
+    }, 100); // Delay to ensure smooth transition after component mounts
+
+    return () => clearTimeout(timer);
+  }, []);
 
   return (
     <div className="relative flex flex-col pt-[5%] h-screen overflow-hidden scroll-m-0">
@@ -15,6 +24,7 @@ const Projects = () => {
             className="flex w-full  justify-center items-center relative "
           >
             <div className="w-[85%] mb-14 flex flex-col text-2xl font-extralight  gap-5 justify-center items-center text-white">
+            <div className={`transform transition-transform duration-1000 ease-in-out ${visible ? 'translate-x-0 opacity-100' : 'translate-x-full opacity-0'}`}>
               <p className="item-center font-bold flex justify-center">
                 Projects
               </p>
@@ -147,6 +157,7 @@ const Projects = () => {
                 </p>
               </div>
               <p>Check out my Github for more projects i have done</p>
+            </div>
             </div>
           </section>
         

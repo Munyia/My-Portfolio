@@ -4,6 +4,15 @@ import Contact from "./Contact";
 import { bg3 } from "../assets/res";
 
 const About = () => {
+  const [visible, setVisible] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setVisible(true);
+    }, 100); // Delay to ensure smooth transition after component mounts
+
+    return () => clearTimeout(timer);
+  }, []);
 
   return (
     <div className="relative flex flex-col pt-[5%] h-screen overflow-hidden scroll-m-0">
@@ -15,6 +24,7 @@ const About = () => {
             className="flex w-full my-[10%] justify-center items-center relative h-screen"
           >
             <div className="w-[85%] pb-[4%] mb-2 text-2xl font-extralight   h-screen flex flex-col gap-3 justify-center items-center text-white">
+            <div className={`transform transition-transform duration-1000 ease-in-out ${visible ? 'translate-x-0 opacity-100' : 'translate-x-full opacity-0'}`}>
             <p className="item-center mb-5 font-bold flex justify-center">
                About Me
               </p>
@@ -63,6 +73,7 @@ const About = () => {
                 technologies, collaborating on open-source projects, or enjoying
                 outdoor adventures.
               </p>
+            </div>
             </div>
           </section>
         

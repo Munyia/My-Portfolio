@@ -4,6 +4,15 @@ import Contact from "./Contact";
 import { bg3 } from "../assets/res";
 
 const Home = () => {
+  const [visible, setVisible] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setVisible(true);
+    }, 100); // Delay to ensure smooth transition after component mounts
+
+    return () => clearTimeout(timer);
+  }, []);
   
   return (
     <div className="relative flex flex-col pt-[5%] h-screen overflow-hidden scroll-m-0">
@@ -15,6 +24,7 @@ const Home = () => {
             className="flex w-fulljustify-center items-center relative"
           >
             <div className="w-[85%] mb-14 flex flex-col ml-[7%] text-2xl font-extralight  gap-3 justify-center   text-white">
+            <div className={`transform transition-transform duration-1000 ease-in-out ${visible ? 'translate-x-0 opacity-100' : 'translate-x-full opacity-0'}`}>
               <p className="item-center font-bold flex justify-center">
                 Education
               </p>
@@ -115,6 +125,7 @@ const Home = () => {
                   analytical skills to assess environmental issues and propose
                   sustainable solutions.
                 </p>
+              </div>
               </div>
             </div>
           </section>
