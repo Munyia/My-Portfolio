@@ -44,7 +44,7 @@ const Home = () => {
           opportunities.
         </p>
       </div>
-        <a href="https://drive.google.com/file/d/1hE-L0RH6a52NUZFGHInwOMLnED808n-y/view?usp=sharing" className="bg-pry text-sec flex text-center mt-10 px-4 py-2 rounded" target="_blank" rel="noopener noreferrer">View my CV</a>
+        <a href="https://drive.google.com/file/d/1hE-L0RH6a52NUZFGHInwOMLnED808n-y/view?usp=sharing" className="bg-pry text-sec flex text-center mt-10 px-4 py-2 rounded-2xl" target="_blank" rel="noopener noreferrer">View my CV</a>
     </div>
           </section>
         
