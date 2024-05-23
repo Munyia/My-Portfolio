@@ -35,8 +35,8 @@ const Projects = () => {
                   Tailwind CSS, MongoDB, Express.js, Node.js
                 </p>
                 <div className=" inline-flex gap-4">
-                <a href="https://word-smitters.vercel.app/" className=" bg-pry text-sec px-4 py-2 rounded-2xl " target="_blank" rel="noopener noreferrer">View Live</a>
-                <a href="https://github.com/Munyia/WordSmitters" className="bg-pry text-sec   px-4 py-2  rounded-2xl" target="_blank" rel="noopener noreferrer">View Code</a>
+                <a href="https://word-smitters.vercel.app/" className=" bg-sec1 text-white hover:text-black  px-4 py-2 rounded-2xl " target="_blank" rel="noopener noreferrer">View Live</a>
+                <a href="https://github.com/Munyia/WordSmitters" className="bg-sec1 text-white hover:text-black    px-4 py-2  rounded-2xl" target="_blank" rel="noopener noreferrer">View Code</a>
                 </div>
                 <p>
                   <span className=" font-bold mr-3 "> Description:</span>
@@ -55,8 +55,8 @@ const Projects = () => {
                   Tailwind CSS
                 </p>
                 <div className=" inline-flex gap-4">
-                <a href="https://my-portfolio-omega-six-48.vercel.app/" className=" bg-pry text-sec px-4 py-2 rounded-2xl" target="_blank" rel="noopener noreferrer">View Live</a>
-                <a href="https://github.com/Munyia/My-Portfolio" className="bg-pry text-sec   px-4 py-2 rounded-2xl" target="_blank" rel="noopener noreferrer">View Code</a>
+                <a href="https://my-portfolio-omega-six-48.vercel.app/" className="bg-sec1 text-white hover:text-black  px-4 py-2 rounded-2xl" target="_blank" rel="noopener noreferrer">View Live</a>
+                <a href="https://github.com/Munyia/My-Portfolio" className="bg-sec1 text-white hover:text-black   px-4 py-2 rounded-2xl" target="_blank" rel="noopener noreferrer">View Code</a>
                 </div>
                 <p>
                   <span className=" font-bold mr-3 "> Description:</span>{" "}
@@ -75,8 +75,8 @@ const Projects = () => {
                   Node.js
                 </p>
                 <div className=" inline-flex gap-4">
-                <a href="https://my-portfolio-omega-six-48.vercel.app/" className=" bg-pry text-sec px-4 py-2 rounded-2xl " target="_blank" rel="noopener noreferrer">View Live</a>
-                <a href="https://github.com/Munyia/My-Portfolio" className="bg-pry text-sec   px-4 py-2 rounded-2xl" target="_blank" rel="noopener noreferrer">View Code</a>
+                <a href="https://my-portfolio-omega-six-48.vercel.app/" className=" bg-sec1 text-white hover:text-black  px-4 py-2 rounded-2xl " target="_blank" rel="noopener noreferrer">View Live</a>
+                <a href="https://github.com/Munyia/My-Portfolio" className="bg-sec1 text-white hover:text-black   px-4 py-2 rounded-2xl" target="_blank" rel="noopener noreferrer">View Code</a>
                 </div>
                 <p>
                   <span className=" font-bold mr-3 "> Description:</span>{" "}
@@ -93,8 +93,8 @@ const Projects = () => {
                 <span className=" font-bold ">Technologies Used: </span>React and Tailwind CSS{" "}
                 </p>
                 <div className=" inline-flex gap-4">
-                <a href="https://apple-coral-two.vercel.app/" className=" bg-pry text-sec px-4 py-2 rounded-2xl" target="_blank" rel="noopener noreferrer">View Live</a>
-                <a href="https://github.com/shilohex/Apple" className="bg-pry text-sec   px-4 py-2 rounded-2xl" target="_blank" rel="noopener noreferrer">View Code</a>
+                <a href="https://apple-coral-two.vercel.app/" className=" bg-sec1 text-white hover:text-black  px-4 py-2 rounded-2xl" target="_blank" rel="noopener noreferrer">View Live</a>
+                <a href="https://github.com/shilohex/Apple" className="bg-sec1 text-white  hover:text-black  px-4 py-2 rounded-2xl" target="_blank" rel="noopener noreferrer">View Code</a>
                 </div>
                 <p>
                   <span className=" font-bold mr-3 "> Description:</span>
@@ -112,8 +112,8 @@ const Projects = () => {
                   HTML and CSS
                 </p>
                 <div className=" inline-flex gap-4">
-                <a href="https://coffee-page-react.vercel.app/" className=" bg-pry text-sec px-4 py-2 rounded-2xl" target="_blank" rel="noopener noreferrer">View Live</a>
-                <a href="https://github.com/Munyia/Coffee-Page-React" className="bg-pry text-sec   px-4 py-2 rounded-2xl" target="_blank" rel="noopener noreferrer">View Code</a>
+                <a href="https://coffee-page-react.vercel.app/" className=" bg-sec1 text-white hover:text-black  px-4 py-2 rounded-2xl" target="_blank" rel="noopener noreferrer">View Live</a>
+                <a href="https://github.com/Munyia/Coffee-Page-React" className="bg-sec1 text-white  hover:text-black   px-4 py-2 rounded-2xl" target="_blank" rel="noopener noreferrer">View Code</a>
                 </div>
                 <p>
                   <span className=" font-bold mr-3 "> Description:</span>
@@ -131,8 +131,8 @@ const Projects = () => {
                   HTML and CSS
                 </p>
                 <div className=" inline-flex gap-4">
-                <a href="https://github.com/Munyia/DocPlanner" className=" bg-pry text-sec px-4 py-2 rounded-2xl" target="_blank" rel="noopener noreferrer">View Live</a>
-                <a href="https://doc-planner-two.vercel.app/t" className="bg-pry text-sec   px-4 py-2  rounded-2xl" target="_blank" rel="noopener noreferrer">View Code</a>
+                <a href="https://github.com/Munyia/DocPlanner" className=" bg-sec1 text-white hover:text-black  px-4 py-2 rounded-2xl" target="_blank" rel="noopener noreferrer">View Live</a>
+                <a href="https://doc-planner-two.vercel.app/t" className="bg-sec1 text-white hover:text-black   px-4 py-2  rounded-2xl" target="_blank" rel="noopener noreferrer">View Code</a>
                 </div>
                 <p>
                   <span className=" font-bold mr-3 "> Description:</span>
@@ -148,8 +148,8 @@ const Projects = () => {
                   HTML and CSS
                 </p>
                 <div className=" inline-flex gap-4">
-                <a href="https://github.com/Munyia/DOM" className=" bg-pry text-sec px-4 py-2 rounded-2xl" target="_blank" rel="noopener noreferrer">View Live</a>
-                <a href="https://dom-smoky.vercel.app/" className="bg-pry text-sec   px-4 py-2 rounded-2xl" target="_blank" rel="noopener noreferrer">View Code</a>
+                <a href="https://github.com/Munyia/DOM" className=" bg-sec1 text-white hover:text-black  px-4 py-2 rounded-2xl" target="_blank" rel="noopener noreferrer">View Live</a>
+                <a href="https://dom-smoky.vercel.app/" className="bg-sec1 text-white  hover:text-black px-4 py-2 rounded-2xl" target="_blank" rel="noopener noreferrer">View Code</a>
                 </div>
                 <p>
                   <span className=" font-bold mr-3 "> Description:</span>
