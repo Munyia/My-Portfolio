@@ -29,15 +29,16 @@ const Projects = () => {
                 Projects
               </p>
               <div className="flex flex-col gap-5">
-                <p className="flex font-bold ">Book Web Application</p>
+                <p className="flex font-bold text-center justify-center mt-5">Book Web Application</p>
                 <p>
                   <span className=" font-bold ">Technologies Used: </span>React,
                   Tailwind CSS, MongoDB, Express.js, Node.js
                 </p>
                 <div className=" inline-flex gap-4">
-                <a href="https://word-smitters.vercel.app/" className=" bg-sec1 text-white hover:text-black  px-4 py-2 rounded-2xl " target="_blank" rel="noopener noreferrer">View Live</a>
-                <a href="https://github.com/Munyia/WordSmitters" className="bg-sec1 text-white hover:text-black    px-4 py-2  rounded-2xl" target="_blank" rel="noopener noreferrer">View Code</a>
+                <a href="https://word-smitters.vercel.app/" className="relative flex items-center p-2 justify-center h-10 bg-sec text-black font-bold rounded-2xl overflow-hidden transition duration-500 cursor-pointer hover:bg-black hover:text-white" target="_blank" rel="noopener noreferrer">View Live</a>
+                <a href="https://github.com/Munyia/WordSmitters" className="relative flex items-center p-2 justify-center h-10 bg-sec text-black font-bold rounded-2xl overflow-hidden transition duration-500 cursor-pointer hover:bg-black hover:text-white" target="_blank" rel="noopener noreferrer">View Code</a>
                 </div>
+                
                 <p>
                   <span className=" font-bold mr-3 "> Description:</span>
                   Developed a comprehensive book web application using the MERN
@@ -48,15 +49,15 @@ const Projects = () => {
                 </p>
               </div>
               <div className="flex flex-col gap-5">
-                <p className="flex font-bold ">Portfolio Website</p>
+                <p className="flex font-bold text-center justify-center mt-5">Portfolio Website</p>
                 <p>
                   {" "}
                   <span className="font-bold">Technologies Used: </span>React,
                   Tailwind CSS
                 </p>
                 <div className=" inline-flex gap-4">
-                <a href="https://my-portfolio-omega-six-48.vercel.app/" className="bg-sec1 text-white hover:text-black  px-4 py-2 rounded-2xl" target="_blank" rel="noopener noreferrer">View Live</a>
-                <a href="https://github.com/Munyia/My-Portfolio" className="bg-sec1 text-white hover:text-black   px-4 py-2 rounded-2xl" target="_blank" rel="noopener noreferrer">View Code</a>
+                <a href="https://my-portfolio-omega-six-48.vercel.app/" className="relative flex items-center p-2 justify-center h-10 bg-sec text-black font-bold rounded-2xl overflow-hidden transition duration-500 cursor-pointer hover:bg-black hover:text-white" target="_blank" rel="noopener noreferrer">View Live</a>
+                <a href="https://github.com/Munyia/My-Portfolio" className="relative flex items-center p-2 justify-center h-10 bg-sec text-black font-bold rounded-2xl overflow-hidden transition duration-500 cursor-pointer hover:bg-black hover:text-white" target="_blank" rel="noopener noreferrer">View Code</a>
                 </div>
                 <p>
                   <span className=" font-bold mr-3 "> Description:</span>{" "}
@@ -69,14 +70,14 @@ const Projects = () => {
                 </p>
               </div>
               {/* <div className="flex flex-col gap-5">
-                <p className="flex font-bold ">Farming Connect</p>
+                <p className="flex font-bold text-center justify-center mt-5">Farming Connect</p>
                 <p >
                 <span className=" font-bold ">Technologies Used: </span>React, Tailwind CSS, MongoDB, Express.js,
                   Node.js
                 </p>
                 <div className=" inline-flex gap-4">
-                <a href="https://my-portfolio-omega-six-48.vercel.app/" className=" bg-sec1 text-white hover:text-black  px-4 py-2 rounded-2xl " target="_blank" rel="noopener noreferrer">View Live</a>
-                <a href="https://github.com/Munyia/My-Portfolio" className="bg-sec1 text-white hover:text-black   px-4 py-2 rounded-2xl" target="_blank" rel="noopener noreferrer">View Code</a>
+                <a href="https://my-portfolio-omega-six-48.vercel.app/" className=" relative flex items-center p-2 justify-center h-10 bg-sec text-black font-bold rounded-2xl overflow-hidden transition duration-500 cursor-pointer hover:bg-black hover:text-white " target="_blank" rel="noopener noreferrer">View Live</a>
+                <a href="https://github.com/Munyia/My-Portfolio" className="relative flex items-center p-2 justify-center h-10 bg-sec text-black font-bold rounded-2xl overflow-hidden transition duration-500 cursor-pointer hover:bg-black hover:text-white" target="_blank" rel="noopener noreferrer">View Code</a>
                 </div>
                 <p>
                   <span className=" font-bold mr-3 "> Description:</span>{" "}
@@ -88,13 +89,13 @@ const Projects = () => {
                 </p>
               </div> */}
               <div className="flex flex-col gap-5">
-                <p className="flex font-bold ">Apple Landing Page Clone</p>
+                <p className="flex font-bold mt-5  text-center justify-center">Apple Landing Page Clone</p>
                 <p>
                 <span className=" font-bold ">Technologies Used: </span>React and Tailwind CSS{" "}
                 </p>
                 <div className=" inline-flex gap-4">
-                <a href="https://apple-coral-two.vercel.app/" className=" bg-sec1 text-white hover:text-black  px-4 py-2 rounded-2xl" target="_blank" rel="noopener noreferrer">View Live</a>
-                <a href="https://github.com/shilohex/Apple" className="bg-sec1 text-white  hover:text-black  px-4 py-2 rounded-2xl" target="_blank" rel="noopener noreferrer">View Code</a>
+                <a href="https://apple-coral-two.vercel.app/" className=" relative flex items-center p-2 justify-center h-10 bg-sec text-black font-bold rounded-2xl overflow-hidden transition duration-500 cursor-pointer hover:bg-black hover:text-white" target="_blank" rel="noopener noreferrer">View Live</a>
+                <a href="https://github.com/shilohex/Apple" className="relative flex items-center p-2 justify-center h-10 bg-sec text-black font-bold rounded-2xl overflow-hidden transition duration-500 cursor-pointer hover:bg-black hover:text-white" target="_blank" rel="noopener noreferrer">View Code</a>
                 </div>
                 <p>
                   <span className=" font-bold mr-3 "> Description:</span>
@@ -106,14 +107,14 @@ const Projects = () => {
                 </p>
               </div>
               <div className="flex flex-col gap-5">
-                <p className="flex font-bold ">Coffee Page</p>
+                <p className="flex font-bold  text-center justify-center mt-5">Coffee Page</p>
                 <p>
                   <span className="flex font-bold ">Technologies Used:</span>{" "}
                   HTML and CSS
                 </p>
                 <div className=" inline-flex gap-4">
-                <a href="https://coffee-page-react.vercel.app/" className=" bg-sec1 text-white hover:text-black  px-4 py-2 rounded-2xl" target="_blank" rel="noopener noreferrer">View Live</a>
-                <a href="https://github.com/Munyia/Coffee-Page-React" className="bg-sec1 text-white  hover:text-black   px-4 py-2 rounded-2xl" target="_blank" rel="noopener noreferrer">View Code</a>
+                <a href="https://coffee-page-react.vercel.app/" className="relative flex items-center p-2 justify-center h-10 bg-sec text-black font-bold rounded-2xl overflow-hidden transition duration-500 cursor-pointer hover:bg-black hover:text-white" target="_blank" rel="noopener noreferrer">View Live</a>
+                <a href="https://github.com/Munyia/Coffee-Page-React" className="relative flex items-center p-2 justify-center h-10 bg-sec text-black font-bold rounded-2xl overflow-hidden transition duration-500 cursor-pointer hover:bg-black hover:text-white" target="_blank" rel="noopener noreferrer">View Code</a>
                 </div>
                 <p>
                   <span className=" font-bold mr-3 "> Description:</span>
@@ -125,14 +126,14 @@ const Projects = () => {
                 </p>
               </div>
               <div className="flex flex-col gap-5">
-                <p className="flex font-bold ">DocPlanner clone Page</p>
+                <p className="flex font-bold text-center justify-center mt-5">DocPlanner clone Page</p>
                 <p>
                   <span className="flex font-bold ">Technologies Used:</span>{" "}
                   HTML and CSS
                 </p>
                 <div className=" inline-flex gap-4">
-                <a href="https://github.com/Munyia/DocPlanner" className=" bg-sec1 text-white hover:text-black  px-4 py-2 rounded-2xl" target="_blank" rel="noopener noreferrer">View Live</a>
-                <a href="https://doc-planner-two.vercel.app/t" className="bg-sec1 text-white hover:text-black   px-4 py-2  rounded-2xl" target="_blank" rel="noopener noreferrer">View Code</a>
+                <a href="https://github.com/Munyia/DocPlanner" className=" relative flex items-center p-2 justify-center h-10 bg-sec text-black font-bold rounded-2xl overflow-hidden transition duration-500 cursor-pointer hover:bg-black hover:text-white" target="_blank" rel="noopener noreferrer">View Live</a>
+                <a href="https://doc-planner-two.vercel.app/t" className="relative flex items-center p-2 justify-center h-10 bg-sec text-black font-bold rounded-2xl overflow-hidden transition duration-500 cursor-pointer hover:bg-black hover:text-white" target="_blank" rel="noopener noreferrer">View Code</a>
                 </div>
                 <p>
                   <span className=" font-bold mr-3 "> Description:</span>
@@ -142,14 +143,14 @@ const Projects = () => {
                 </p>
               </div>
               <div className="flex flex-col gap-5">
-                <p className="flex font-bold ">Dom</p>
+                <p className="flex font-bold text-center justify-center mt-5">Dom</p>
                 <p>
                   <span className="flex font-bold ">Technologies Used:</span>{" "}
                   HTML and CSS
                 </p>
                 <div className=" inline-flex gap-4">
-                <a href="https://github.com/Munyia/DOM" className=" bg-sec1 text-white hover:text-black  px-4 py-2 rounded-2xl" target="_blank" rel="noopener noreferrer">View Live</a>
-                <a href="https://dom-smoky.vercel.app/" className="bg-sec1 text-white  hover:text-black px-4 py-2 rounded-2xl" target="_blank" rel="noopener noreferrer">View Code</a>
+                <a href="https://github.com/Munyia/DOM" className=" relative flex items-center p-2 justify-center h-10 bg-sec text-black font-bold rounded-2xl overflow-hidden transition duration-500 cursor-pointer hover:bg-black hover:text-white" target="_blank" rel="noopener noreferrer">View Live</a>
+                <a href="https://dom-smoky.vercel.app/" className="relative flex items-center p-2 justify-center h-10 bg-sec text-black font-bold rounded-2xl overflow-hidden transition duration-500 cursor-pointer hover:bg-black hover:text-white" target="_blank" rel="noopener noreferrer">View Code</a>
                 </div>
                 <p>
                   <span className=" font-bold mr-3 "> Description:</span>

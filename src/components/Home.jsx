@@ -43,9 +43,14 @@ const Home = () => {
           contribute to tech innovation. Let's connect for collaboration
           opportunities.
         </p>
+
+
+
       </div>
-        <a href="https://drive.google.com/file/d/1hE-L0RH6a52NUZFGHInwOMLnED808n-y/view?usp=sharing" className="bg-sec1 text-white  hover:text-black flex text-center mt-10 px-4 py-2 rounded-2xl" target="_blank" rel="noopener noreferrer">View my CV</a>
+        <a href="https://drive.google.com/file/d/1hE-L0RH6a52NUZFGHInwOMLnED808n-y/view?usp=sharing" className="relative flex items-center p-2 justify-center h-10 bg-sec text-black font-bold rounded-2xl overflow-hidden transition duration-500 cursor-pointer hover:bg-black hover:text-white" target="_blank" rel="noopener noreferrer">View my CV
+        </a>
     </div>
+
           </section>
         
         </div>
