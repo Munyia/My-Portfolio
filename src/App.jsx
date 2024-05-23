@@ -9,6 +9,7 @@ import Projects from "./components/Projects"
 import Skills from "./components/Skills"
 import LandingPage from "./components/LandingPage"
 import Tools from "./components/Tools"
+import Name from "./components/Name"
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
        <Route path="/projects" element={<Projects/>} />
        <Route path="/skills" element={<Skills/>} />
        <Route path="/tools" element={<Tools/>} />
+       <Route path="/name" element={<Name/>} />
      </Routes>
      </BrowserRouter>
     </>

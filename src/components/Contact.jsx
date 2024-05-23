@@ -1,17 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./all.css";
+import Name from "./Name";
 
 const Contact = () => {
   return (
     <div className="fixed bottom-0 w-[15%] h-[88%] bg-sec text-white p-4 z-20">
-      <div className="flex justify-center text-center">
-      <p className="text-pry py-5 justify-center align-middle font-serif font-bold hover:text-sec1 flex items-center text-3xl">
-        Vivian Amaranjo
-      </p>
-      </div>
+      
       <div className="flex flex-col p-5 gap-5 justify-center  items-center  aspect-square w-88 ">
-   
+   <Name/>
         <Link
           to="https://github.com/Munyia"
           target="_blank"
